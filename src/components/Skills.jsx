@@ -11,7 +11,7 @@ const SkillBox =({imgSrc,name})=>{
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id='skills'>
         <h2>Skills</h2>
 
         <div className="skill-list">

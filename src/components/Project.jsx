@@ -21,7 +21,7 @@ const ProjectCard = ({title,desc,techStack,gitHubLink})=>{
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div className="projects" id='projects'>
         <h2>Projects</h2>
         <div className="project-list">
           <ProjectCard 

@@ -22,7 +22,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="contact">
+    <div className="contact" id='contact'>
         <h2>Contact</h2>
         <div className="icons">
           <a href="https://github.com/Pranav1703" target='_blank'><FaGithub size={40} /></a>
