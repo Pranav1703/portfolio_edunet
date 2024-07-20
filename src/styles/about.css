@@ -43,5 +43,9 @@
 }
 
 
-
+@media (max-width: 600px){
+    .about>p{
+        padding: 0 1em 0em 1em;
+    }
+}
 

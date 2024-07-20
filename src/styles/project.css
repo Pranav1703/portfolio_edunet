@@ -48,3 +48,19 @@
 .project-card:hover{
     transform:scale(1.05)
 }
+
+@media (max-width:600px){
+
+    .project-list{
+        flex-direction: column;
+    }
+
+    .project-card{
+        margin: 1em;
+        max-width: 300px;
+    }
+
+    .tech-stack>p{
+        font-size: small;
+    }
+}
