@@ -37,12 +37,17 @@
 }
 
 .tech-stack{
-    display: flex;    
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .tech-stack>p{
     margin: 0.3em;
     font-weight: 600;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+
 }
 
 .project-card:hover{
