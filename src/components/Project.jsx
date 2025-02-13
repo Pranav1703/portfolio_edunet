@@ -37,10 +37,10 @@ const Projects = () => {
             gitHubLink={"https://github.com/Pranav1703/Ani-manga_scraper"}
           />
           <ProjectCard
-            title={"WeatherCLI"}
-            desc={"command-line interface (CLI) tool developed in GoLang, designed to fetch real-time weather data from an API."}
-            techStack={["Go"]}
-            gitHubLink={"https://github.com/Pranav1703/Weather_CLI"}
+            title={"PassVault"}
+            desc={"Cross-platform desktop app with Electron.js and React for secure credential management using AES-256 encryption."}
+            techStack={["React", "Typescript", "ElectronJs", "PostgreSQL", "Prisma ORM"]}
+            gitHubLink={"https://github.com/Pranav1703/passVault"}
           />
         </div>
     </div>
